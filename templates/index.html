@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        {% load static %}
+        <meta charset="utf-8" />
+        <title>Patricio Carestía</title>
+        <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon" />
+        <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        <div class="line-container">
+            <div class="l1"></div>
+            <div class="l2"></div>
+            <div class="l3"></div>
+            <div class="l4"></div>
+            <div class="l5"></div>
+        </div>
+        <div class="header">
+            <div class="container-wrap">
+                <ul class="nav-links left">
+                    <li><a href="#works">Proyectos</a></li>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#about">Habilidades</a></li>
+                </ul>
+                <img class="profile" src="{% static 'images/profile.jpg' %}" />
+                <ul class="nav-links right">
+                    <li><a href="#links">CV</a></li>
+                    <li><a href="#links">Cursos Realizados</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <section id="main-content">
+            <div class="container-wrap">
+                <div class="hero">
+                    <h1 class="capitalize">
+                        Patricio Carestía
+                    </h1>
+
+                    <div class="social-bar">
+                        <a href="https://www.linkedin.com/in/patricio-carest%C3%ADa-94b441b7/"><i class="fa fa-linkedin"></i></a>                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="works">
+            <span class="section-label">PROYECTOS</span>
+            <div class="container-wrap">
+                <div class="gallery">
+                    <div class="column">
+                        <a href="/avanz/" class="grid-item">
+                            <img
+                                width="100%"
+                                src="{% static 'images/avanz.svg' %}" style="border-radius: 20px;"
+                            />
+                            <div class="grid-content">
+                                <!-- <span class="label">Featured</span> -->
+                                <h3>
+                                    Avanz Sistemas
+                                </h3>
+                            </div>
+                        </a>
+                        <a href="/pet/" class="grid-item">
+                            <img
+                                width="100%"
+                                src="{% static 'images/pet.svg' %}" style="border-radius: 20px;"
+                            />
+                            <div class="grid-content">
+                                <h3>
+                                    Mascotas Perdidas
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="/giveaway/" class="grid-item">
+                            <img
+                                width="100%"
+                                src="{% static 'images/sorteos.svg' %}" style="border-radius: 20px;"
+                            />
+                            <div class="grid-content">
+                                 <span class="label">Más reciente</span> 
+                                <h3>
+                                    Sorteos
+                                </h3>
+                            </div>
+                        </a>
+                        <a href="/reader/" class="grid-item">
+                            <img
+                                width="100%"
+                                src="{% static 'images/reader.svg' %}" style="border-radius: 20px;"
+                            />
+                            <div class="grid-content">
+                                <h3>
+                                    Lector de Billetes
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <span class="section-label">PATRICIO</span>
+            <div class="container-wrap">
+                <div class="gallery">
+                    <div class="row">
+                        <div class="">
+                            <div class="">
+                                <h3>Acerca de mí</h3>
+                                <p>
+                                    Soy un estudiante avanzado de Ingeniería en Sistemas de Información,
+                                    emprendedor, autodidacta y apasionado 
+                                    por la tecnología desde temprana edad. Amante de los nuevos desafíos y 
+                                    del trabajo en equipo. <br>Actualmente estoy realizando la tesis de mi carrera. 
+                                    Mi intención es trabajar en una empresa para iniciarme profesionalmente 
+                                    como programador y contribuir en el crecimiento de la misma a través de mis 
+                                    conocimientos y habilidades.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <span class="section-label">HABILIDADES</span>
+            <div class="container-wrap">
+                <div class="gallery">
+                    <div class="row">
+                        <div class="grid-item">
+                            <div class="grid-content">
+                                <h3>Programación</h3>
+                                <p>
+                                    En el transcurso de mi carrera obtuve un amplio conocimiento
+                                    en algoritmia para la resolución de problemas mendiante programación
+                                    y estoy capacitado para el testing y mantenimiento de software.<br>
+                                    La programación es el área en el cual más me interesa expandir mis conocimientos. 
+                                    Cuento con habilidades básicas en JavaScript, Angular, Node.js y Python.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="grid-content">
+                                <h3>UX/UI</h3>
+                                <p>
+                                    Me apasiona ofrecer soluciones a los usuarios mediante productos que sean útiles, atractivos y visuales. <br>
+                                    Cuento con un manejo avanzado de herramientas de diseño profesional, 
+                                    entre ellas la Suite de Adobe: XD, Illustrator y Photoshop.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="grid-item">
+                            <div class="grid-content">
+                                <h3>Desarrollo Web</h3>
+                                <p>
+                                    Estoy apto para llevar a cabo el diseño, creación y mantenimiento de páginas web. <br>
+                                    Tengo dominio de HTML & CSS y conocimientos esenciales en 
+                                    herramientas de versionado y Bases de Datos MySQL.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="grid-content">
+                                <h3>Marketing Digital</h3>
+                                <p>
+                                    Estoy capacitado y certificado en: <br>
+                                    Growth Marketing, para estimular el crecimiento acelerado de empresas.<br>
+                                    Marketing Voz a Voz, para lograr la expansión de marcas.<br>
+                                    Construcción de Marcas, con el objetivo de lograr identidad y reconocimiento en el mercado.<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="grid-item">
+                            <div class="grid-content">
+                                <h3>Trabajo en Equipo</h3>
+                                <p>
+                                    Ninguno de mis proyectos los llevé a cabo individualmente y
+                                    considero que hacerlo en equipo es la forma más eficiente 
+                                    de alcanzar el logro de metas y objetivos.<br>
+                                    Considero que para esto las habilidades sociales son de vital importancia, lo que me llevó, 
+                                    por ejemplo, a tomar cursos de Inteligencia Emocional tanto en el ámbito profesional 
+                                    como el personal para ser cada vez más efectivo en esta forma de trabajo.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="grid-content">
+                                <h3></h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section id="links">
+            <span class="section-label">CURSOS REALIZADOS</span>
+            <div class="container-wrap">
+                <div class="gallery">
+                    <div class="column">
+                        <div class="grid-item">
+                            <div class="grid-content">
+                                <a href="https://platzi.com/p/patriciocarestia/curso/1339-fundamentos-javascript/diploma/detalle/">
+                                    Fundamentos de JavaScript
+                                </a>
+                                <span> 2020 </span>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="grid-content">
+                                <a href="https://platzi.com/p/patriciocarestia/curso/1614-inteligencia-emocional/diploma/detalle/">
+                                    Inteligencia Emocional en el Ámbito Profesional
+                                </a>
+                                <span> 2020 </span>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="grid-content">
+                                <a href="https://platzi.com/p/patriciocarestia/curso/1044-branding-2016/diploma/detalle/">
+                                    Construcción de Marca
+                                </a>
+                                <span> 2016 </span>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="grid-content">
+                                <a href="https://platzi.com/p/patriciocarestia/curso/1058-marketing-voz-2016/diploma/detalle/">
+                                    Marketing Voz a Voz
+                                </a>
+                                <span> 2016 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br /><br />
+
+        <section id="contact">
+            <div class="container-wrap">
+                <h2>¡Un placer conocerte!</h2>
+                <div class="content">
+                    <div class="desc">
+                        <p>
+                            Si deseas contactarme, puedes utilizar el formulario a continuación.
+                        </p>
+                        <div class="social-bar">
+                            <a href="https://www.linkedin.com/in/patricio-carest%C3%ADa-94b441b7/"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form" method="post" action="/contact/">
+                        {% csrf_token %}
+                        <label>
+                            <span>ASUNTO</span>
+                            <input type="text" name="name" placeholder="Indique el motivo del mensaje" />
+                        </label>
+                        <label>
+                            <span>E-MAIL</span>
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Ingrese su correo electrónico"
+                            />
+                        </label>
+                        <label>
+                            <span>MENSAJE</span>
+                            <textarea
+                                name="comments"
+                                placeholder="Ingrese aquí su mensaje"></textarea>
+                        </label>
+                        <button type="submit"><i class="fa fa-send"></i></button>
+                    </form>                    
+                    <p>{{ message }}</p>
+                </div>
+            </div>
+        </section>
+        <div id="footer">
+            <div class="container-wrap">
+                <span> Copyright © 2021 Patricio Carestía </span>
+                <a href=""> Curriculum Vitae </a>
+            </div>
+        </div>
+    </body>
+
+    <script>
+        document.querySelectorAll(".nav-links > li > a")
+                .forEach(function(link) {
+                    link.addEventListener("click", function(e) {
+                        document.querySelector(e.target.getAttribute("href"))
+                            .scrollIntoView({
+                                behavior: "smooth"
+                            });
+                    });
+                });
+
+        {% if message %}
+                location = "#contact"
+        {% endif %}
+    </script>
+</html>

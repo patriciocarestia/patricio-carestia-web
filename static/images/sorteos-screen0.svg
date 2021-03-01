@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-sorteos-screen0">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="sorteos-screen0" clip-path="url(#clip-sorteos-screen0)">
+    <rect width="1920" height="1080" fill="#23bebd"/>
+    <path id="Path_527" data-name="Path 527" d="M0,0H1920V1080H0Z" fill="#dd2a7b"/>
+    <text id="Sorteos" transform="translate(1016.547 592.387)" fill="#fff" font-size="100" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-170.525" y="0">Sorteos</tspan></text>
+    <line id="Line_2" data-name="Line 2" y2="156" transform="translate(1571 766.5)" fill="none" stroke="#fff" stroke-width="2"/>
+    <text id="Patricio_Carestía_2021" data-name="Patricio
+Carestía
+2021" transform="translate(1594.5 813)" fill="#fff" font-size="30" font-family="Nunito-Light, Nunito" font-weight="300"><tspan x="0" y="0">Patricio</tspan><tspan x="0" y="41">Carestía</tspan><tspan x="0" y="82">2021</tspan></text>
+    <text id="www.patriciocarestia.com" transform="translate(960 857.5)" fill="#fff" font-size="40" font-family="Nunito-Light, Nunito" font-weight="300"><tspan x="-227.8" y="0">www.patriciocarestia.com</tspan></text>
+    <g id="Logo" transform="translate(434.453 372.943)">
+      <g id="XMLID_504_" transform="translate(0 0)">
+        <path id="XMLID_142_" d="M706.277,721H533.71a2.546,2.546,0,0,1-2.052-4.051l15.889-21.992A2.5,2.5,0,0,1,549.6,693.9H690.335a2.428,2.428,0,0,1,2.052,1.052l15.889,21.992A2.527,2.527,0,0,1,706.277,721Z" transform="translate(-507.667 -392.878)" fill="#d1d3d4"/>
+        <path id="XMLID_246_" d="M703.876,374.3H625.8V64.562a5.155,5.155,0,0,1,5.366-4.862h67.343a5.155,5.155,0,0,1,5.367,4.862Z" transform="translate(-552.511 -59.7)" fill="#bcbec0"/>
+        <path id="XMLID_508_" d="M625.8,383h78.023V71.4Z" transform="translate(-552.511 -68.405)" fill="#a7a9ac"/>
+        <path id="XMLID_501_" d="M664.838,627.145A112.858,112.858,0,0,1,625.8,620.2v6.471a111.636,111.636,0,0,0,39.038,6.945,112.854,112.854,0,0,0,39.038-6.945V620.2A111.638,111.638,0,0,1,664.838,627.145Z" transform="translate(-552.511 -354.258)" fill="#9c9c9d"/>
+        <circle id="XMLID_1_" cx="112.326" cy="112.326" r="112.326" transform="translate(0 48.234)" fill="#ddc69c"/>
+        <path id="XMLID_4_" d="M105.855,0c43.905,0,81.567,26.73,97.82,65.327A105.873,105.873,0,1,1,105.855,0Z" transform="translate(6.471 54.705)" fill="#fffbf6"/>
+        <path id="XMLID_16_" d="M609.888,235.1A100.466,100.466,0,0,0,564.8,261.143l71.132,71.184Z" transform="translate(-523.604 -171.766)" fill="#7d93ff"/>
+        <path id="XMLID_17_" d="M541.243,284.6A100.464,100.464,0,0,0,515.2,329.688l97.227,26.1Z" transform="translate(-500.1 -195.223)" fill="#f9c276"/>
+        <path id="XMLID_18_" d="M702.586,232.02a100.874,100.874,0,0,0-52.086,0l26.043,97.227Z" transform="translate(-564.216 -168.686)" fill="#405de6"/>
+        <path id="XMLID_19_" d="M797.227,329.788A100.467,100.467,0,0,0,771.184,284.7L700,355.831Z" transform="translate(-587.673 -195.271)" fill="#833ab4"/>
+        <path id="XMLID_20_" d="M797.227,422.486a100.873,100.873,0,0,0,0-52.086L700,396.443Z" transform="translate(-587.673 -235.882)" fill="#692791"/>
+        <path id="XMLID_21_" d="M771.184,261.143A100.465,100.465,0,0,0,726.1,235.1L700,332.327Z" transform="translate(-587.673 -171.766)" fill="#5851db"/>
+        <path id="XMLID_22_" d="M512.12,370.4a100.873,100.873,0,0,0,0,52.086l97.227-26.043Z" transform="translate(-497.02 -235.882)" fill="#fcaf45"/>
+        <path id="XMLID_23_" d="M700,419.9l71.184,71.184A100.468,100.468,0,0,0,797.227,446Z" transform="translate(-587.673 -259.34)" fill="#c13584"/>
+        <path id="XMLID_24_" d="M650.5,517.126a100.871,100.871,0,0,0,52.086,0L676.543,419.9Z" transform="translate(-564.216 -259.34)" fill="#ff2c2c"/>
+        <path id="XMLID_25_" d="M726.042,517.126a100.461,100.461,0,0,0,45.089-26.043L700,419.9Z" transform="translate(-587.673 -259.34)" fill="#e1306c"/>
+        <path id="XMLID_26_" d="M515.2,445.943a100.466,100.466,0,0,0,26.043,45.089L612.427,419.9Z" transform="translate(-500.1 -259.34)" fill="#f77737"/>
+        <path id="XMLID_27_" d="M564.7,491.084a100.46,100.46,0,0,0,45.089,26.043l26.1-97.227Z" transform="translate(-523.557 -259.34)" fill="#f56040"/>
+        <circle id="XMLID_2_" cx="8.839" cy="8.839" r="8.839" transform="translate(103.488 151.721)" fill="#f2dabd"/>
+        <circle id="XMLID_3_" cx="5.787" cy="5.787" r="5.787" transform="translate(106.539 154.773)" fill="#ff003d"/>
+        <rect id="XMLID_499_" width="177.67" height="8.523" transform="translate(23.518 325.591)" fill="#a7a9ac"/>
+        <path id="XMLID_503_" d="M622.2,707.521,618.2,694h4Z" transform="translate(-548.91 -389.23)" fill="#c9c9c9"/>
+        <g id="triangle" transform="translate(127.111 67.144) rotate(180)">
+          <path id="Path_184" data-name="Path 184" d="M.521.316,0,1.217,1.068,12.624,14.252,25.879h1.041a.632.632,0,0,0,.547-.948L1.615.316A.632.632,0,0,0,.521.316Z" transform="translate(13.79 0)" fill="#901c0f"/>
+          <path id="Path_185" data-name="Path 185" d="M.633,24.662H28.042L13.79,0,.086,23.713A.632.632,0,0,0,.633,24.662Z" transform="translate(0 1.217)" fill="#ff003d"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
