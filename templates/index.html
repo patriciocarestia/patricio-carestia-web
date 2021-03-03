@@ -10,7 +10,14 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
         <link rel="stylesheet" href="{% static 'css/style.css' %}" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            .grecaptcha-badge {
+                display: none;
+            }
+        </style>
     </head>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 
     <body>
         <div class="line-container">
@@ -261,7 +268,7 @@
                             <a href="https://www.linkedin.com/in/patricio-carest%C3%ADa-94b441b7/"><i class="fa fa-linkedin"></i></a>
                         </div>
                     </div>
-                    <form class="contact-form" method="post" action="/contact/">
+                    <form id="contact-form" class="contact-form" method="post" action="/contact/">
                         {% csrf_token %}
                         <label>
                             <span>ASUNTO</span>
@@ -284,7 +291,7 @@
                         <center>
                             <p>{{ message }}</p>
                         </center>
-                        <button type="submit"><i class="fa fa-send"></i></button>
+                        <button type="button" class="g-recaptcha" data-sitekey="6Le2iXAaAAAAAPzjVN-YoJAXbQpeODG5RHgYNdzH" data-callback='onSubmit'><i class="fa fa-send"></i></button>
                     </form>                    
                 </div>
             </div>
@@ -297,7 +304,12 @@
         </div>
     </body>
 
+    
     <script>
+        function onSubmit(token) {
+            document.getElementById("contact-form").submit();
+       }
+
         document.querySelectorAll(".nav-links > li > a")
                 .forEach(function(link) {
                     link.addEventListener("click", function(e) {
