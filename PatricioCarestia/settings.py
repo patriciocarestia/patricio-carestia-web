@@ -128,7 +128,7 @@ STATIC_ROOT = '../static/'
 STATIC_URL = '/static/'
 
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'smpt.gmail.com'
+EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'avanzsistemas@gmail.com'
 EMAIL_HOST_PASSWORD = '7el$pa$nz'
 EMAIL_PORT = 587
