@@ -486,7 +486,7 @@ section .section-label {
   margin-right: 20px;
 }
 .gallery .column:last-child {
-  margin: 20px;
+  margin-left: 20px;
 }
 .gallery .row {
   display: -webkit-box;
@@ -497,10 +497,10 @@ section .section-label {
   width: calc(50% - 20px);
 }
 .gallery .row .grid-item:first-child {
-  margin: 20px;
+  margin-right: 20px;
 }
 .gallery .row .grid-item:last-child {
-  margin: 20px;
+  margin-left: 20px;
 }
 
 .label {
