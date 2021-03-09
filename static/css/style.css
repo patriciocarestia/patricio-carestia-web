@@ -486,7 +486,7 @@ section .section-label {
   margin-right: 20px;
 }
 .gallery .column:last-child {
-  margin-left: 20px;
+  margin: 20px;
 }
 .gallery .row {
   display: -webkit-box;
@@ -500,7 +500,7 @@ section .section-label {
   margin: 20px;
 }
 .gallery .row .grid-item:last-child {
-  margin-left: 20px;
+  margin: 20px;
 }
 
 .label {
