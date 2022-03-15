@@ -21,10 +21,6 @@ from django.conf import settings
 
 urlpatterns = [
     path('', views.Index, name='Index'),
-    path('avanz/', views.Avanz, name='Avanz'),
     path('contact/', views.Contact, name='Contact'),
-    path('reader/', views.Reader, name='Reader'),
-    path('pet/', views.Pet, name='Pet'),
-    path('giveaway/', views.Giveaway, name='Giveaway'),
     path('admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

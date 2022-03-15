@@ -31,15 +31,3 @@ def Contact(request):
             context['message'] = 'No se ha podido enviar el mensaje, por favor, vuelve a intentar'
 
     return render(request, 'index.html', context)
-
-def Avanz(request):
-    return render(request, 'avanz.html')
-
-def Reader(request):
-    return render(request, 'reader.html')
-
-def Pet(request):
-    return render(request, 'pet.html')
-
-def Giveaway(request):
-    return render(request, 'giveaway.html')

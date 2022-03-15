@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="540" height="540" viewBox="0 0 540 540">
+  <defs>
+    <clipPath id="clip-giveaways">
+      <rect width="540" height="540"/>
+    </clipPath>
+  </defs>
+  <g id="giveaways" clip-path="url(#clip-giveaways)">
+    <g id="Logo" transform="translate(182.427 139.757)">
+      <g id="XMLID_504_" transform="translate(0 0)">
+        <path id="XMLID_142_" d="M667.687,715.024H533.149a1.985,1.985,0,0,1-1.6-3.158l12.387-17.146a1.947,1.947,0,0,1,1.6-.82H655.259a1.893,1.893,0,0,1,1.6.82l12.387,17.146A1.97,1.97,0,0,1,667.687,715.024Z" transform="translate(-512.846 -459.215)" fill="#d1d3d4"/>
+        <path id="XMLID_246_" d="M686.67,304.967H625.8V63.49a4.019,4.019,0,0,1,4.184-3.791h52.5a4.019,4.019,0,0,1,4.184,3.791Z" transform="translate(-568.662 -59.7)" fill="#bcbec0"/>
+        <path id="XMLID_508_" d="M625.8,314.333h60.829V71.4Z" transform="translate(-568.662 -69.066)" fill="#a7a9ac"/>
+        <path id="XMLID_501_" d="M656.235,625.615A87.988,87.988,0,0,1,625.8,620.2v5.045a87.034,87.034,0,0,0,30.435,5.414,87.983,87.983,0,0,0,30.435-5.414V620.2A87.036,87.036,0,0,1,656.235,625.615Z" transform="translate(-568.662 -412.864)" fill="#9c9c9d"/>
+        <circle id="XMLID_1_" cx="87.573" cy="87.573" r="87.573" transform="translate(0 37.605)" fill="#ddc69c"/>
+        <path id="XMLID_4_" d="M82.528,0a82.7,82.7,0,0,1,76.263,50.931A82.542,82.542,0,1,1,82.528,0Z" transform="translate(5.045 42.65)" fill="#fffbf6"/>
+        <path id="XMLID_16_" d="M599.952,235.1A78.326,78.326,0,0,0,564.8,255.4l55.456,55.5Z" transform="translate(-532.683 -185.723)" fill="#7d93ff"/>
+        <path id="XMLID_17_" d="M535.5,284.6a78.325,78.325,0,0,0-20.3,35.152L591,340.1Z" transform="translate(-503.428 -214.92)" fill="#f9c276"/>
+        <path id="XMLID_18_" d="M691.107,231.266a78.645,78.645,0,0,0-40.608,0l20.3,75.8Z" transform="translate(-583.231 -181.89)" fill="#405de6"/>
+        <path id="XMLID_19_" d="M775.8,319.852A78.327,78.327,0,0,0,755.5,284.7L700,340.156Z" transform="translate(-612.427 -214.979)" fill="#833ab4"/>
+        <path id="XMLID_20_" d="M775.8,411.008a78.644,78.644,0,0,0,0-40.608L700,390.7Z" transform="translate(-612.427 -265.526)" fill="#692791"/>
+        <path id="XMLID_21_" d="M755.5,255.4a78.327,78.327,0,0,0-35.152-20.3L700,310.9Z" transform="translate(-612.427 -185.723)" fill="#5851db"/>
+        <path id="XMLID_22_" d="M511.366,370.4a78.641,78.641,0,0,0,0,40.608l75.8-20.3Z" transform="translate(-499.594 -265.526)" fill="#fcaf45"/>
+        <path id="XMLID_23_" d="M700,419.9l55.5,55.5a78.327,78.327,0,0,0,20.3-35.152Z" transform="translate(-612.427 -294.723)" fill="#c13584"/>
+        <path id="XMLID_24_" d="M650.5,495.7a78.642,78.642,0,0,0,40.608,0l-20.3-75.8Z" transform="translate(-583.231 -294.723)" fill="#ff2c2c"/>
+        <path id="XMLID_25_" d="M720.3,495.7a78.322,78.322,0,0,0,35.152-20.3L700,419.9Z" transform="translate(-612.427 -294.723)" fill="#e1306c"/>
+        <path id="XMLID_26_" d="M515.2,440.2a78.326,78.326,0,0,0,20.3,35.152L591,419.9Z" transform="translate(-503.428 -294.723)" fill="#f77737"/>
+        <path id="XMLID_27_" d="M564.7,475.4a78.323,78.323,0,0,0,35.152,20.3L620.2,419.9Z" transform="translate(-532.624 -294.723)" fill="#f56040"/>
+        <circle id="XMLID_2_" cx="6.891" cy="6.891" r="6.891" transform="translate(80.682 118.286)" fill="#f2dabd"/>
+        <circle id="XMLID_3_" cx="4.512" cy="4.512" r="4.512" transform="translate(83.061 120.665)" fill="#ff003d"/>
+        <rect id="XMLID_499_" width="138.517" height="6.645" transform="translate(18.335 253.84)" fill="#a7a9ac"/>
+        <path id="XMLID_503_" d="M621.318,704.542,618.2,694h3.117Z" transform="translate(-564.18 -456.393)" fill="#c9c9c9"/>
+        <g id="triangle" transform="translate(99.099 52.347) rotate(180)">
+          <path id="Path_184" data-name="Path 184" d="M.406.246,0,.949.833,9.842,11.112,20.176h.811a.493.493,0,0,0,.427-.739L1.259.246A.493.493,0,0,0,.406.246Z" transform="translate(10.751 0)" fill="#901c0f"/>
+          <path id="Path_185" data-name="Path 185" d="M.494,19.227H21.862L10.751,0,.067,18.488A.493.493,0,0,0,.494,19.227Z" transform="translate(0 0.949)" fill="#ff003d"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
