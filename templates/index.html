@@ -4,6 +4,7 @@
   <head>
     {% load static %}
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patricio Carestía</title>
     <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon" />
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -791,26 +792,36 @@
             </div>
 
           </div>
-            <form class="contact__form grid">
+            <form onsubmit="submitForm(event)" id="contact-form" method="post" action="/contact/" class="contact__form grid">
+                <input type="hidden" name="captcha_token" id="captcha_token" />
                 <div class="contact__content">
                   <label class="contact__label">Full Name / Company</label>
-                  <input type="text" class="contact__input">
+                  <input name="name" required type="text" class="contact__input">
                 </div>
               <div class="contact__content">
                 <label class="contact__label">Email</label>
-                <input type="text" class="contact__input">
+                <input name="email" required type="email" class="contact__input">
               </div>
               <div class="contact__content">
                 <label class="contact__label">Message</label>
-                <textarea cols="3" rows="7" class="contact__input"></textarea>
+                <textarea name="comments" required cols="3" rows="7" class="contact__input"></textarea>
               </div>
 
+              <!-- MENSAJE ENVIADO CON EXITO -->
+              {% if success %}
+                {{message}}
+              {% else %} <!-- MENSAJE CON ERRORES -->
+                {{message}}
+              {% endif %}
+
               <div>
-                <a href="#" class="button button--file">
+                <button class="contact__button button button--file">
                   Send Message
                   <i class="uil uil-message button__icon"></i>
-                </a>
+                </button>
               </div>
+
+              {% csrf_token %}
             </form>
 
         </div>
@@ -858,8 +869,14 @@
       <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
+    <script src="https://www.google.com/recaptcha/api.js?render=6Ld4CDQgAAAAANnDfNW45lc0BtJqkQX-urptqKms"></script>
     <script src="{% static 'js/swiper-bundle.min.js' %}"></script>
     <script src="{% static 'js/main.js' %}"></script>
+    <script>
+      {% if message %}
+        location.href += "#contact"
+      {% endif %}
+    </script>
   </body>
 
 </html>

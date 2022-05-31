@@ -888,6 +888,12 @@ a .button--link {
 	padding: 0.25rem 0.5rem 0.5rem 0;
 }
 
+.contact__button {
+	border: none;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
 .footer {
 	padding-top: 2rem;
 }

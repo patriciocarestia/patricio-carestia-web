@@ -2,6 +2,21 @@ const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close')
 
+/* SEND CONTACT */
+function submitForm(event) {
+event.preventDefault();
+
+let token_field = document.getElementById("captcha_token");
+let form = document.getElementById("contact-form");
+
+grecaptcha.ready(function() {
+    grecaptcha.execute('6Ld4CDQgAAAAANnDfNW45lc0BtJqkQX-urptqKms', {action: 'submit'}).then(function(token) {
+    token_field.value = token;
+    form.submit();
+    });
+});
+}
+
 /* Show Menu */
 if(navToggle){
     navToggle.addEventListener('click', ()=>{
