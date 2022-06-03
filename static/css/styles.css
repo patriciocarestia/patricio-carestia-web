@@ -505,7 +505,7 @@ a .button--link {
 }
 
 .skills__react {
-	width: 60%;
+	width: 60% !important;
 }
 
 .skills__mysql {
