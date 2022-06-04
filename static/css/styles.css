@@ -892,6 +892,7 @@ a .button--link {
 	border: none;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
+	cursor: pointer !important;
 }
 
 .footer {
